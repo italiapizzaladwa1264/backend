@@ -9,7 +9,8 @@ const orderSchema = new mongoose.Schema({
   address: { type: String },
   timestamp: { type: String, required: true },
   discount:{ type: Number, default: 0  },
-  delivery: { type: Number, default: 0  }
+  delivery: { type: Number, default: 0  },
+  includeGST: { type: Boolean, default: true },
 });
 
 const Order = mongoose.model('Order', orderSchema);
