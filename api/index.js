@@ -10,7 +10,7 @@ const orderRoutes = require('./routes/orderRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 const customerdataRoutes = require('./routes/customerdataRoutes');
 
-// Initialize the app
+// Initialize the app 
 const app = express();
 
 // Middlewares
