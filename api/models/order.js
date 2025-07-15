@@ -11,6 +11,7 @@ const orderSchema = new mongoose.Schema({
   discount:{ type: Number, default: 0  },
   delivery: { type: Number, default: 0  },
   includeGST: { type: Boolean, default: true },
+  gstAmount:     { type: Number, default: 0 },
 });
 
 const Order = mongoose.model('Order', orderSchema);
